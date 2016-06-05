@@ -1,0 +1,16 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<configuration>
+    <configSections>
+    </configSections>
+    <connectionStrings>
+        <add name="SistemaReservacion.Properties.Settings.ITESM_DATABASEConnectionString"
+            connectionString="Provider=Microsoft.ACE.OLEDB.12.0;Data Source=|DataDirectory|\ITESM_DATABASE.accdb"
+            providerName="System.Data.OleDb" />
+        <add name="SistemaReservacion.Properties.Settings.ITESM_EGOBConnectionString"
+            connectionString="Data Source=MARYCARMEN-PC\SQLEXPRESS;Initial Catalog=ITESM_EGOB;Integrated Security=True"
+            providerName="System.Data.SqlClient" />
+    </connectionStrings>
+    <startup> 
+        <supportedRuntime version="v4.0" sku=".NETFramework,Version=v4.5.2" />
+    </startup>
+</configuration>

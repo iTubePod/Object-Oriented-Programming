@@ -1,0 +1,216 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		840A9D471521154C006AA7B4 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 840A9D461521154C006AA7B4 /* main.cpp */; };
+		840A9D5015211578006AA7B4 /* Vertice.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 840A9D4E15211578006AA7B4 /* Vertice.cpp */; };
+		840A9D5B15211724006AA7B4 /* Arista.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 840A9D5915211724006AA7B4 /* Arista.cpp */; };
+		840A9D5E152119F0006AA7B4 /* Grafo.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 840A9D5C152119F0006AA7B4 /* Grafo.cpp */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		840A9D401521154B006AA7B4 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		840A9D421521154B006AA7B4 /* GrafosAput */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = GrafosAput; sourceTree = BUILT_PRODUCTS_DIR; };
+		840A9D461521154C006AA7B4 /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
+		840A9D481521154C006AA7B4 /* GrafosAput.1 */ = {isa = PBXFileReference; lastKnownFileType = text.man; path = GrafosAput.1; sourceTree = "<group>"; };
+		840A9D4E15211578006AA7B4 /* Vertice.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = Vertice.cpp; sourceTree = "<group>"; };
+		840A9D4F15211578006AA7B4 /* Vertice.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Vertice.h; sourceTree = "<group>"; };
+		840A9D5915211724006AA7B4 /* Arista.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = Arista.cpp; sourceTree = "<group>"; };
+		840A9D5A15211724006AA7B4 /* Arista.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Arista.h; sourceTree = "<group>"; };
+		840A9D5C152119F0006AA7B4 /* Grafo.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = Grafo.cpp; sourceTree = "<group>"; };
+		840A9D5D152119F0006AA7B4 /* Grafo.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Grafo.h; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		840A9D3F1521154B006AA7B4 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		840A9D371521154B006AA7B4 = {
+			isa = PBXGroup;
+			children = (
+				840A9D451521154B006AA7B4 /* GrafosAput */,
+				840A9D431521154B006AA7B4 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		840A9D431521154B006AA7B4 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				840A9D421521154B006AA7B4 /* GrafosAput */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		840A9D451521154B006AA7B4 /* GrafosAput */ = {
+			isa = PBXGroup;
+			children = (
+				840A9D461521154C006AA7B4 /* main.cpp */,
+				840A9D481521154C006AA7B4 /* GrafosAput.1 */,
+				840A9D4E15211578006AA7B4 /* Vertice.cpp */,
+				840A9D4F15211578006AA7B4 /* Vertice.h */,
+				840A9D5915211724006AA7B4 /* Arista.cpp */,
+				840A9D5A15211724006AA7B4 /* Arista.h */,
+				840A9D5C152119F0006AA7B4 /* Grafo.cpp */,
+				840A9D5D152119F0006AA7B4 /* Grafo.h */,
+			);
+			path = GrafosAput;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		840A9D411521154B006AA7B4 /* GrafosAput */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 840A9D4B1521154C006AA7B4 /* Build configuration list for PBXNativeTarget "GrafosAput" */;
+			buildPhases = (
+				840A9D3E1521154B006AA7B4 /* Sources */,
+				840A9D3F1521154B006AA7B4 /* Frameworks */,
+				840A9D401521154B006AA7B4 /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = GrafosAput;
+			productName = GrafosAput;
+			productReference = 840A9D421521154B006AA7B4 /* GrafosAput */;
+			productType = "com.apple.product-type.tool";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		840A9D391521154B006AA7B4 /* Project object */ = {
+			isa = PBXProject;
+			buildConfigurationList = 840A9D3C1521154B006AA7B4 /* Build configuration list for PBXProject "GrafosAput" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 840A9D371521154B006AA7B4;
+			productRefGroup = 840A9D431521154B006AA7B4 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				840A9D411521154B006AA7B4 /* GrafosAput */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		840A9D3E1521154B006AA7B4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				840A9D471521154C006AA7B4 /* main.cpp in Sources */,
+				840A9D5015211578006AA7B4 /* Vertice.cpp in Sources */,
+				840A9D5B15211724006AA7B4 /* Arista.cpp in Sources */,
+				840A9D5E152119F0006AA7B4 /* Grafo.cpp in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		840A9D491521154C006AA7B4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_64_BIT)";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = DEBUG;
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.6;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		840A9D4A1521154C006AA7B4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_64_BIT)";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.6;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		840A9D4C1521154C006AA7B4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COPY_PHASE_STRIP = NO;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		840A9D4D1521154C006AA7B4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		840A9D3C1521154B006AA7B4 /* Build configuration list for PBXProject "GrafosAput" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				840A9D491521154C006AA7B4 /* Debug */,
+				840A9D4A1521154C006AA7B4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		840A9D4B1521154C006AA7B4 /* Build configuration list for PBXNativeTarget "GrafosAput" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				840A9D4C1521154C006AA7B4 /* Debug */,
+				840A9D4D1521154C006AA7B4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 840A9D391521154B006AA7B4 /* Project object */;
+}

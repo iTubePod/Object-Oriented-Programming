@@ -1,0 +1,7 @@
+g++ -c Main.cpp
+g++ -c Enemigo.cpp
+g++ -c Hoyo.cpp
+g++ -c Monstruo.cpp
+g++ -c Juego.cpp
+g++ -c Jugador.cpp
+g++ -o HW main.o Enemigo.o Hoyo.o Monstruo.o Juego.o Jugador.o

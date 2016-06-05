@@ -1,0 +1,4 @@
+g++ -c Dedo.cpp
+g++ -c Mano.cpp
+g++ -c main.cpp
+g++ -o main main.o Mano.o Dedo.o

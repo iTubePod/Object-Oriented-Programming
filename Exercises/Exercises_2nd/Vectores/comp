@@ -1,0 +1,3 @@
+g++ -c Cosa.cpp
+g++ -c ejemploVector.cpp
+g++ -o vectores ejemploVector.o Cosa.o

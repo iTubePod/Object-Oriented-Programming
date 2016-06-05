@@ -1,0 +1,198 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		848D389D16CADFE300CCF9C6 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 848D389C16CADFE300CCF9C6 /* main.cpp */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		848D389616CADFE200CCF9C6 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		848D389816CADFE200CCF9C6 /* Vectores */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = Vectores; sourceTree = BUILT_PRODUCTS_DIR; };
+		848D389C16CADFE300CCF9C6 /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
+		848D389E16CADFE300CCF9C6 /* Vectores.1 */ = {isa = PBXFileReference; lastKnownFileType = text.man; path = Vectores.1; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		848D389516CADFE200CCF9C6 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		848D388D16CADFE200CCF9C6 = {
+			isa = PBXGroup;
+			children = (
+				848D389B16CADFE200CCF9C6 /* Vectores */,
+				848D389916CADFE200CCF9C6 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		848D389916CADFE200CCF9C6 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				848D389816CADFE200CCF9C6 /* Vectores */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		848D389B16CADFE200CCF9C6 /* Vectores */ = {
+			isa = PBXGroup;
+			children = (
+				848D389C16CADFE300CCF9C6 /* main.cpp */,
+				848D389E16CADFE300CCF9C6 /* Vectores.1 */,
+			);
+			path = Vectores;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		848D389716CADFE200CCF9C6 /* Vectores */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 848D38A116CADFE300CCF9C6 /* Build configuration list for PBXNativeTarget "Vectores" */;
+			buildPhases = (
+				848D389416CADFE200CCF9C6 /* Sources */,
+				848D389516CADFE200CCF9C6 /* Frameworks */,
+				848D389616CADFE200CCF9C6 /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Vectores;
+			productName = Vectores;
+			productReference = 848D389816CADFE200CCF9C6 /* Vectores */;
+			productType = "com.apple.product-type.tool";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		848D388F16CADFE200CCF9C6 /* Project object */ = {
+			isa = PBXProject;
+			buildConfigurationList = 848D389216CADFE200CCF9C6 /* Build configuration list for PBXProject "Vectores" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 848D388D16CADFE200CCF9C6;
+			productRefGroup = 848D389916CADFE200CCF9C6 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				848D389716CADFE200CCF9C6 /* Vectores */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		848D389416CADFE200CCF9C6 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				848D389D16CADFE300CCF9C6 /* main.cpp in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		848D389F16CADFE300CCF9C6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_64_BIT)";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = DEBUG;
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.6;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		848D38A016CADFE300CCF9C6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_64_BIT)";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.6;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		848D38A216CADFE300CCF9C6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COPY_PHASE_STRIP = NO;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		848D38A316CADFE300CCF9C6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		848D389216CADFE200CCF9C6 /* Build configuration list for PBXProject "Vectores" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				848D389F16CADFE300CCF9C6 /* Debug */,
+				848D38A016CADFE300CCF9C6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		848D38A116CADFE300CCF9C6 /* Build configuration list for PBXNativeTarget "Vectores" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				848D38A216CADFE300CCF9C6 /* Debug */,
+				848D38A316CADFE300CCF9C6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 848D388F16CADFE200CCF9C6 /* Project object */;
+}

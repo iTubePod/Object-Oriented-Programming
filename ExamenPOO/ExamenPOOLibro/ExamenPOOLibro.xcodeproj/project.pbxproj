@@ -1,0 +1,254 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		197925091BAB157C00A4642E /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 197925081BAB157C00A4642E /* main.cpp */; };
+		197925111BAB15F000A4642E /* Libro.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 1979250F1BAB15F000A4642E /* Libro.cpp */; settings = {ASSET_TAGS = (); }; };
+		197925141BAB161D00A4642E /* LibroTexto.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 197925121BAB161D00A4642E /* LibroTexto.cpp */; settings = {ASSET_TAGS = (); }; };
+/* End PBXBuildFile section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		197925031BAB157B00A4642E /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		197925051BAB157B00A4642E /* ExamenPOOLibro */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = ExamenPOOLibro; sourceTree = BUILT_PRODUCTS_DIR; };
+		197925081BAB157C00A4642E /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
+		1979250F1BAB15F000A4642E /* Libro.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = Libro.cpp; sourceTree = "<group>"; };
+		197925101BAB15F000A4642E /* Libro.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = Libro.hpp; sourceTree = "<group>"; };
+		197925121BAB161D00A4642E /* LibroTexto.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = LibroTexto.cpp; sourceTree = "<group>"; };
+		197925131BAB161D00A4642E /* LibroTexto.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = LibroTexto.hpp; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		197925021BAB157B00A4642E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		197924FC1BAB157B00A4642E = {
+			isa = PBXGroup;
+			children = (
+				197925071BAB157B00A4642E /* ExamenPOOLibro */,
+				197925061BAB157B00A4642E /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		197925061BAB157B00A4642E /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				197925051BAB157B00A4642E /* ExamenPOOLibro */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		197925071BAB157B00A4642E /* ExamenPOOLibro */ = {
+			isa = PBXGroup;
+			children = (
+				197925081BAB157C00A4642E /* main.cpp */,
+				197925121BAB161D00A4642E /* LibroTexto.cpp */,
+				197925131BAB161D00A4642E /* LibroTexto.hpp */,
+				1979250F1BAB15F000A4642E /* Libro.cpp */,
+				197925101BAB15F000A4642E /* Libro.hpp */,
+			);
+			path = ExamenPOOLibro;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		197925041BAB157B00A4642E /* ExamenPOOLibro */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1979250C1BAB157C00A4642E /* Build configuration list for PBXNativeTarget "ExamenPOOLibro" */;
+			buildPhases = (
+				197925011BAB157B00A4642E /* Sources */,
+				197925021BAB157B00A4642E /* Frameworks */,
+				197925031BAB157B00A4642E /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ExamenPOOLibro;
+			productName = ExamenPOOLibro;
+			productReference = 197925051BAB157B00A4642E /* ExamenPOOLibro */;
+			productType = "com.apple.product-type.tool";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		197924FD1BAB157B00A4642E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0700;
+				ORGANIZATIONNAME = "Mauricio G. Coello";
+				TargetAttributes = {
+					197925041BAB157B00A4642E = {
+						CreatedOnToolsVersion = 7.0;
+					};
+				};
+			};
+			buildConfigurationList = 197925001BAB157B00A4642E /* Build configuration list for PBXProject "ExamenPOOLibro" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 197924FC1BAB157B00A4642E;
+			productRefGroup = 197925061BAB157B00A4642E /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				197925041BAB157B00A4642E /* ExamenPOOLibro */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		197925011BAB157B00A4642E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				197925111BAB15F000A4642E /* Libro.cpp in Sources */,
+				197925141BAB161D00A4642E /* LibroTexto.cpp in Sources */,
+				197925091BAB157C00A4642E /* main.cpp in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		1979250A1BAB157C00A4642E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.10;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		1979250B1BAB157C00A4642E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.10;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		1979250D1BAB157C00A4642E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		1979250E1BAB157C00A4642E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		197925001BAB157B00A4642E /* Build configuration list for PBXProject "ExamenPOOLibro" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1979250A1BAB157C00A4642E /* Debug */,
+				1979250B1BAB157C00A4642E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1979250C1BAB157C00A4642E /* Build configuration list for PBXNativeTarget "ExamenPOOLibro" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1979250D1BAB157C00A4642E /* Debug */,
+				1979250E1BAB157C00A4642E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 197924FD1BAB157B00A4642E /* Project object */;
+}

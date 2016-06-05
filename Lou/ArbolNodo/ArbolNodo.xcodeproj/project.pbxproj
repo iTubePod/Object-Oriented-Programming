@@ -1,0 +1,210 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		845BCA1A16E0FD970007C15B /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 845BCA1916E0FD970007C15B /* main.cpp */; };
+		845BCA2316E0FFDA0007C15B /* Nodo.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 845BCA2116E0FFDA0007C15B /* Nodo.cpp */; };
+		845BCA2E16E104800007C15B /* Arbol.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 845BCA2C16E104800007C15B /* Arbol.cpp */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		845BCA1316E0FD960007C15B /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		845BCA1516E0FD970007C15B /* ArbolNodo */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = ArbolNodo; sourceTree = BUILT_PRODUCTS_DIR; };
+		845BCA1916E0FD970007C15B /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
+		845BCA1B16E0FD970007C15B /* ArbolNodo.1 */ = {isa = PBXFileReference; lastKnownFileType = text.man; path = ArbolNodo.1; sourceTree = "<group>"; };
+		845BCA2116E0FFDA0007C15B /* Nodo.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = Nodo.cpp; sourceTree = "<group>"; };
+		845BCA2216E0FFDA0007C15B /* Nodo.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Nodo.h; sourceTree = "<group>"; };
+		845BCA2C16E104800007C15B /* Arbol.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = Arbol.cpp; sourceTree = "<group>"; };
+		845BCA2D16E104800007C15B /* Arbol.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Arbol.h; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		845BCA1216E0FD960007C15B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		845BCA0A16E0FD960007C15B = {
+			isa = PBXGroup;
+			children = (
+				845BCA1816E0FD970007C15B /* ArbolNodo */,
+				845BCA1616E0FD970007C15B /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		845BCA1616E0FD970007C15B /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				845BCA1516E0FD970007C15B /* ArbolNodo */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		845BCA1816E0FD970007C15B /* ArbolNodo */ = {
+			isa = PBXGroup;
+			children = (
+				845BCA1916E0FD970007C15B /* main.cpp */,
+				845BCA1B16E0FD970007C15B /* ArbolNodo.1 */,
+				845BCA2116E0FFDA0007C15B /* Nodo.cpp */,
+				845BCA2216E0FFDA0007C15B /* Nodo.h */,
+				845BCA2C16E104800007C15B /* Arbol.cpp */,
+				845BCA2D16E104800007C15B /* Arbol.h */,
+			);
+			path = ArbolNodo;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		845BCA1416E0FD960007C15B /* ArbolNodo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 845BCA1E16E0FD970007C15B /* Build configuration list for PBXNativeTarget "ArbolNodo" */;
+			buildPhases = (
+				845BCA1116E0FD960007C15B /* Sources */,
+				845BCA1216E0FD960007C15B /* Frameworks */,
+				845BCA1316E0FD960007C15B /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ArbolNodo;
+			productName = ArbolNodo;
+			productReference = 845BCA1516E0FD970007C15B /* ArbolNodo */;
+			productType = "com.apple.product-type.tool";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		845BCA0C16E0FD960007C15B /* Project object */ = {
+			isa = PBXProject;
+			buildConfigurationList = 845BCA0F16E0FD960007C15B /* Build configuration list for PBXProject "ArbolNodo" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 845BCA0A16E0FD960007C15B;
+			productRefGroup = 845BCA1616E0FD970007C15B /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				845BCA1416E0FD960007C15B /* ArbolNodo */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		845BCA1116E0FD960007C15B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				845BCA1A16E0FD970007C15B /* main.cpp in Sources */,
+				845BCA2316E0FFDA0007C15B /* Nodo.cpp in Sources */,
+				845BCA2E16E104800007C15B /* Arbol.cpp in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		845BCA1C16E0FD970007C15B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_64_BIT)";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = DEBUG;
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.6;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		845BCA1D16E0FD970007C15B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_64_BIT)";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.6;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		845BCA1F16E0FD970007C15B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COPY_PHASE_STRIP = NO;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		845BCA2016E0FD970007C15B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		845BCA0F16E0FD960007C15B /* Build configuration list for PBXProject "ArbolNodo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				845BCA1C16E0FD970007C15B /* Debug */,
+				845BCA1D16E0FD970007C15B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		845BCA1E16E0FD970007C15B /* Build configuration list for PBXNativeTarget "ArbolNodo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				845BCA1F16E0FD970007C15B /* Debug */,
+				845BCA2016E0FD970007C15B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 845BCA0C16E0FD960007C15B /* Project object */;
+}

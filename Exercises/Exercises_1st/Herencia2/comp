@@ -1,0 +1,6 @@
+g++ -c Figura.cpp
+g++ -c Circulo.cpp
+g++ -c Rectangulo.cpp
+g++ -c main.cpp
+
+g++ -o fig main.o Figura.o Circulo.o Rectangulo.o

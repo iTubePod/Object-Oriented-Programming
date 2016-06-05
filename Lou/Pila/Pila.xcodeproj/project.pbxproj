@@ -1,0 +1,198 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		84C0905216A9ECA300D32224 /* main.c in Sources */ = {isa = PBXBuildFile; fileRef = 84C0905116A9ECA300D32224 /* main.c */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		84C0904B16A9ECA300D32224 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		84C0904D16A9ECA300D32224 /* Pila */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = Pila; sourceTree = BUILT_PRODUCTS_DIR; };
+		84C0905116A9ECA300D32224 /* main.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = main.c; sourceTree = "<group>"; };
+		84C0905316A9ECA300D32224 /* Pila.1 */ = {isa = PBXFileReference; lastKnownFileType = text.man; path = Pila.1; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		84C0904A16A9ECA300D32224 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		84C0904216A9ECA200D32224 = {
+			isa = PBXGroup;
+			children = (
+				84C0905016A9ECA300D32224 /* Pila */,
+				84C0904E16A9ECA300D32224 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		84C0904E16A9ECA300D32224 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				84C0904D16A9ECA300D32224 /* Pila */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		84C0905016A9ECA300D32224 /* Pila */ = {
+			isa = PBXGroup;
+			children = (
+				84C0905116A9ECA300D32224 /* main.c */,
+				84C0905316A9ECA300D32224 /* Pila.1 */,
+			);
+			path = Pila;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		84C0904C16A9ECA300D32224 /* Pila */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 84C0905616A9ECA300D32224 /* Build configuration list for PBXNativeTarget "Pila" */;
+			buildPhases = (
+				84C0904916A9ECA300D32224 /* Sources */,
+				84C0904A16A9ECA300D32224 /* Frameworks */,
+				84C0904B16A9ECA300D32224 /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Pila;
+			productName = Pila;
+			productReference = 84C0904D16A9ECA300D32224 /* Pila */;
+			productType = "com.apple.product-type.tool";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		84C0904416A9ECA200D32224 /* Project object */ = {
+			isa = PBXProject;
+			buildConfigurationList = 84C0904716A9ECA200D32224 /* Build configuration list for PBXProject "Pila" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 84C0904216A9ECA200D32224;
+			productRefGroup = 84C0904E16A9ECA300D32224 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				84C0904C16A9ECA300D32224 /* Pila */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		84C0904916A9ECA300D32224 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				84C0905216A9ECA300D32224 /* main.c in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		84C0905416A9ECA300D32224 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_64_BIT)";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = DEBUG;
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.6;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		84C0905516A9ECA300D32224 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_64_BIT)";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.6;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		84C0905716A9ECA300D32224 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COPY_PHASE_STRIP = NO;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		84C0905816A9ECA300D32224 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		84C0904716A9ECA200D32224 /* Build configuration list for PBXProject "Pila" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				84C0905416A9ECA300D32224 /* Debug */,
+				84C0905516A9ECA300D32224 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		84C0905616A9ECA300D32224 /* Build configuration list for PBXNativeTarget "Pila" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				84C0905716A9ECA300D32224 /* Debug */,
+				84C0905816A9ECA300D32224 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 84C0904416A9ECA200D32224 /* Project object */;
+}

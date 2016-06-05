@@ -1,0 +1,4 @@
+g++ -c main.cpp
+g++ -c Libro.cpp
+g++ -c LibroTexto.cpp
+g++ -o main main.o Libro.o LibroTexto.o

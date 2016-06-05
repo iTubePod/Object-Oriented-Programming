@@ -1,0 +1,4 @@
+g++ -c Figura.cpp
+g++ -c Circulo.cpp
+g++ -c FIG.CPP
+g++ -o fig FIG.o Figura.o Circulo.o 

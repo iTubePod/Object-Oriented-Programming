@@ -1,0 +1,272 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		19ABDEF51BCFFB120080D08E /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 19ABDEF41BCFFB120080D08E /* main.cpp */; };
+		19ABDEFD1BCFFB250080D08E /* Enemigo.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 19ABDEFB1BCFFB250080D08E /* Enemigo.cpp */; settings = {ASSET_TAGS = (); }; };
+		19ABDF001BCFFB380080D08E /* Hoyo.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 19ABDEFE1BCFFB380080D08E /* Hoyo.cpp */; settings = {ASSET_TAGS = (); }; };
+		19ABDF031BCFFB440080D08E /* Monstruo.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 19ABDF011BCFFB440080D08E /* Monstruo.cpp */; settings = {ASSET_TAGS = (); }; };
+		19ABDF061BCFFB4F0080D08E /* Jugador.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 19ABDF041BCFFB4F0080D08E /* Jugador.cpp */; settings = {ASSET_TAGS = (); }; };
+		19ABDF091BCFFB5A0080D08E /* Juego.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 19ABDF071BCFFB5A0080D08E /* Juego.cpp */; settings = {ASSET_TAGS = (); }; };
+/* End PBXBuildFile section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		19ABDEEF1BCFFB120080D08E /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		19ABDEF11BCFFB120080D08E /* Max */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = Max; sourceTree = BUILT_PRODUCTS_DIR; };
+		19ABDEF41BCFFB120080D08E /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
+		19ABDEFB1BCFFB250080D08E /* Enemigo.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = Enemigo.cpp; sourceTree = "<group>"; };
+		19ABDEFC1BCFFB250080D08E /* Enemigo.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = Enemigo.hpp; sourceTree = "<group>"; };
+		19ABDEFE1BCFFB380080D08E /* Hoyo.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = Hoyo.cpp; sourceTree = "<group>"; };
+		19ABDEFF1BCFFB380080D08E /* Hoyo.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = Hoyo.hpp; sourceTree = "<group>"; };
+		19ABDF011BCFFB440080D08E /* Monstruo.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = Monstruo.cpp; sourceTree = "<group>"; };
+		19ABDF021BCFFB440080D08E /* Monstruo.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = Monstruo.hpp; sourceTree = "<group>"; };
+		19ABDF041BCFFB4F0080D08E /* Jugador.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = Jugador.cpp; sourceTree = "<group>"; };
+		19ABDF051BCFFB4F0080D08E /* Jugador.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = Jugador.hpp; sourceTree = "<group>"; };
+		19ABDF071BCFFB5A0080D08E /* Juego.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = Juego.cpp; sourceTree = "<group>"; };
+		19ABDF081BCFFB5A0080D08E /* Juego.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = Juego.hpp; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		19ABDEEE1BCFFB120080D08E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		19ABDEE81BCFFB110080D08E = {
+			isa = PBXGroup;
+			children = (
+				19ABDEF31BCFFB120080D08E /* Max */,
+				19ABDEF21BCFFB120080D08E /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		19ABDEF21BCFFB120080D08E /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				19ABDEF11BCFFB120080D08E /* Max */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		19ABDEF31BCFFB120080D08E /* Max */ = {
+			isa = PBXGroup;
+			children = (
+				19ABDEF41BCFFB120080D08E /* main.cpp */,
+				19ABDEFB1BCFFB250080D08E /* Enemigo.cpp */,
+				19ABDEFC1BCFFB250080D08E /* Enemigo.hpp */,
+				19ABDEFE1BCFFB380080D08E /* Hoyo.cpp */,
+				19ABDEFF1BCFFB380080D08E /* Hoyo.hpp */,
+				19ABDF011BCFFB440080D08E /* Monstruo.cpp */,
+				19ABDF021BCFFB440080D08E /* Monstruo.hpp */,
+				19ABDF041BCFFB4F0080D08E /* Jugador.cpp */,
+				19ABDF051BCFFB4F0080D08E /* Jugador.hpp */,
+				19ABDF071BCFFB5A0080D08E /* Juego.cpp */,
+				19ABDF081BCFFB5A0080D08E /* Juego.hpp */,
+			);
+			path = Max;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		19ABDEF01BCFFB120080D08E /* Max */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 19ABDEF81BCFFB120080D08E /* Build configuration list for PBXNativeTarget "Max" */;
+			buildPhases = (
+				19ABDEED1BCFFB120080D08E /* Sources */,
+				19ABDEEE1BCFFB120080D08E /* Frameworks */,
+				19ABDEEF1BCFFB120080D08E /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Max;
+			productName = Max;
+			productReference = 19ABDEF11BCFFB120080D08E /* Max */;
+			productType = "com.apple.product-type.tool";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		19ABDEE91BCFFB110080D08E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0700;
+				ORGANIZATIONNAME = "Mauricio G. Coello";
+				TargetAttributes = {
+					19ABDEF01BCFFB120080D08E = {
+						CreatedOnToolsVersion = 7.0.1;
+					};
+				};
+			};
+			buildConfigurationList = 19ABDEEC1BCFFB110080D08E /* Build configuration list for PBXProject "Max" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 19ABDEE81BCFFB110080D08E;
+			productRefGroup = 19ABDEF21BCFFB120080D08E /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				19ABDEF01BCFFB120080D08E /* Max */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		19ABDEED1BCFFB120080D08E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				19ABDF031BCFFB440080D08E /* Monstruo.cpp in Sources */,
+				19ABDF001BCFFB380080D08E /* Hoyo.cpp in Sources */,
+				19ABDF061BCFFB4F0080D08E /* Jugador.cpp in Sources */,
+				19ABDEFD1BCFFB250080D08E /* Enemigo.cpp in Sources */,
+				19ABDF091BCFFB5A0080D08E /* Juego.cpp in Sources */,
+				19ABDEF51BCFFB120080D08E /* main.cpp in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		19ABDEF61BCFFB120080D08E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.11;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		19ABDEF71BCFFB120080D08E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.11;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		19ABDEF91BCFFB120080D08E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		19ABDEFA1BCFFB120080D08E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		19ABDEEC1BCFFB110080D08E /* Build configuration list for PBXProject "Max" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				19ABDEF61BCFFB120080D08E /* Debug */,
+				19ABDEF71BCFFB120080D08E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		19ABDEF81BCFFB120080D08E /* Build configuration list for PBXNativeTarget "Max" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				19ABDEF91BCFFB120080D08E /* Debug */,
+				19ABDEFA1BCFFB120080D08E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 19ABDEE91BCFFB110080D08E /* Project object */;
+}
